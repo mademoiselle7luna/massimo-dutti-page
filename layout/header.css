@@ -1,3 +1,21 @@
+* {
+  outline: 0;
+  box-sizing: border-box;
+  background-color: var(--white);
+  color: var(--black);
+}
+
+html {
+  overflow-x: hidden;
+}
+
+body {
+  max-width: 100vw;
+  width: 100vw;
+  overflow-x: hidden;
+  margin: 0;
+}
+
 :root {
   --white: #fff;
   --black: #000;
@@ -7,17 +25,6 @@
 
 :root {
   --body-fonts: "Helvetica", "Arial", sans-serif;
-}
-
-* {
-  box-sizing: border-box;
-  background-color: var(--white);
-  color: var(--black);
-}
-
-.massimo-dutti {
-  max-width: 100vw;
-  height: 100vh;
 }
 
 .header-container {
@@ -41,6 +48,7 @@
 
 .menu {
   margin-left: 0.2rem;
+  width: 15%;
 }
 
 .link {
@@ -56,7 +64,13 @@
   color: var(--red);
 }
 
-.header-image {
+.main-image {
+  background-image: url(../components/img/header_image.jpeg);
+  background-size: contain;
+  background-repeat: no-repeat;
   width: 100%;
-  justify-content: center;
+}
+
+.inside-image {
+  overflow: visible;
 }/*# sourceMappingURL=header.css.map */

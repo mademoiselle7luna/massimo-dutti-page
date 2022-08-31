@@ -47,7 +47,7 @@ body {
 }
 
 .menu {
-  margin-left: 0.2rem;
+  margin-left: 0.3em;
   width: 15%;
 }
 
@@ -64,13 +64,27 @@ body {
   color: var(--red);
 }
 
+.header-images {
+  display: inline;
+  overflow: hidden;
+}
+
 .main-image {
-  background-image: url(../components/img/header_image.jpeg);
-  background-size: contain;
+  position: absolute;
+  background-size: cover;
   background-repeat: no-repeat;
+  background-position: 50% 50%;
+  z-index: 1;
   width: 100%;
+  height: 599px;
 }
 
 .inside-image {
-  overflow: visible;
+  position: absolute;
+  align-items: center;
+  background-color: transparent;
+  z-index: 2;
+  left: 50%;
+  top: 35%;
+  transform: translate(-50%, -50%);
 }/*# sourceMappingURL=header.css.map */

@@ -76,7 +76,7 @@ body {
   margin: 1rem;
 }
 
-.text-2 {
+.text-4 {
   font-size: 1.5rem;
   line-height: 1.6;
   font-weight: 500;
@@ -95,6 +95,18 @@ body {
   color: var(--black) !important;
   font-size: 1rem;
   font-weight: 300;
+}
+
+.container-about-collection {
+  width: 100%;
+  padding-top: 10rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.img-thumbnail {
+  width: 50%;
 }
 
 :root {

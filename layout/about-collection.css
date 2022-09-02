@@ -1,0 +1,11 @@
+.container-about-collection {
+  width: 100%;
+  padding-top: 10rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.img-thumbnail {
+  width: 50%;
+}/*# sourceMappingURL=about-collection.css.map */

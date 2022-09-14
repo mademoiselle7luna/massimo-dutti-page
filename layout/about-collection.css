@@ -1,11 +1,58 @@
 .container-about-collection {
   width: 100%;
-  padding-top: 10rem;
+  padding-top: 2rem;
   display: flex;
   flex-direction: row;
   justify-content: center;
+  background-color: var(--light-gray);
 }
 
 .img-thumbnail {
   width: 50%;
+  margin: -34px 49px 55px;
+  height: 471px;
+  padding-top: -3rem;
+  align-items: center;
+}
+
+.text-section_2 {
+  left: 20px;
+  padding-right: 100px;
+  background-color: var(--light-gray);
+}
+
+.headline-text-2 {
+  font-family: var(--playfair-display);
+  font-size: 2.25rem;
+  font-weight: 500;
+  margin: auto;
+  background-color: var(--light-gray);
+}
+
+.text-4 {
+  font-family: var(--roboto);
+  font-size: 1.5rem;
+  padding: 1rem 0 1rem;
+  background-color: var(--light-gray);
+}
+
+.description {
+  font-family: var(--open-sans-confesed);
+  font-style: italic;
+  color: var(--gray);
+  background-color: var(--light-gray);
+  padding-bottom: 10px;
+}
+
+.btn-btn-read {
+  margin-top: 20px;
+  text-decoration: none;
+  background-color: var(--light-yellow);
+  padding: 15px 32px;
+  text-align: center;
+  letter-spacing: 0.2rem;
+  font-family: var(--calibri);
+  color: var(--black) !important;
+  font-size: 1rem;
+  font-weight: 300;
 }/*# sourceMappingURL=about-collection.css.map */

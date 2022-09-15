@@ -121,8 +121,9 @@ body {
   width: 50%;
   margin: -34px 49px 55px;
   height: 471px;
-  padding-top: -3rem;
+  padding: 10px;
   align-items: center;
+  background: border-box;
 }
 
 .text-section_2 {

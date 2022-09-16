@@ -1,8 +1,10 @@
 @import "common";
 @import "container-collection";
 @import "about-collection";
+@import "seventy-percentages";
 @import "colors";
 @import "fonts";
+
 
  
   .header-container {
@@ -32,6 +34,8 @@
   .link {
     padding: 0.3rem;
     text-decoration: none;
+    font-family: var(--open-sans-confensed);
+    font-size: 0.9rem;
   }
   
   .link:active {

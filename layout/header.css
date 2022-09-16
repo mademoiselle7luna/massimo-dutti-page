@@ -168,6 +168,39 @@ body {
   font-weight: 300;
 }
 
+.container_gold_clearance {
+  display: inline-grid;
+  grid-template-rows: 200px 200px;
+  grid-template-columns: auto auto;
+  -moz-column-gap: 50px;
+       column-gap: 50px;
+  padding: 5rem;
+}
+
+.left-side_of_gold_clearance {
+  align-items: center;
+}
+
+.img_wom {
+  height: 30rem;
+  width: 80%;
+  overflow: hidden;
+  padding-left: 2rem;
+}
+
+.description-1 {
+  font-family: var(--open-sans-confesed);
+  font-style: italic;
+  color: var(--gray);
+  padding-bottom: 10px;
+}
+
+.description-r {
+  font-size: 2.25rem;
+  font-family: var(--roboto);
+  padding-bottom: 3rem;
+}
+
 :root {
   --white: #fff;
   --black: #000;
@@ -213,6 +246,8 @@ body {
 .link {
   padding: 0.3rem;
   text-decoration: none;
+  font-family: var(--open-sans-confensed);
+  font-size: 0.9rem;
 }
 
 .link:active {

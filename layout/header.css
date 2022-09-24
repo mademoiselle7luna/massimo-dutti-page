@@ -170,6 +170,8 @@ body {
 }
 
 .container_gold_clearance {
+  width: 100%;
+  height: 50rem;
   display: inline-grid;
   grid-template-rows: 200px 200px;
   grid-template-columns: auto auto;
@@ -200,6 +202,28 @@ body {
   font-size: 2.25rem;
   font-family: var(--roboto);
   padding-bottom: 3rem;
+}
+
+.img_wom2 {
+  height: 29rem;
+  margin-left: 5rem;
+}
+
+.container_customer-section {
+  padding-top: 300px;
+  background-color: var(--light-gray);
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.av_img {
+  width: 11rem;
+  height: 11rem;
+  align-content: center;
+  border-radius: 50% !important;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 :root {

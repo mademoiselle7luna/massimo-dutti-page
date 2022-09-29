@@ -1,10 +1,6 @@
-.container_customer-section {
-    padding-top:300px;
+.cointaner_customer-section {
     background-color: var(--light-gray);
     width: 100%;
-    display: flex;
-    flex-direction: row;
-    display: block;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
@@ -16,15 +12,12 @@
     border-radius: 50% !important;
     object-fit: cover;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: -65px auto 20px;
 }
 
 .description-r {
     font-size: 2.25rem;
-    font-family: var(--roboto);
+    font-family: var(--playfair-display);
     padding-bottom: 3rem;
-    text-decoration: none;
     font-weight: 200;
-    text-align: center;
 }

@@ -18,6 +18,8 @@
   width: 80%;
   overflow: hidden;
   padding-left: 2rem;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .description-1 {

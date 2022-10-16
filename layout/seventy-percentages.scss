@@ -17,6 +17,7 @@
     width: 80%;
     overflow: hidden;
     padding-left: 2rem;
+    object-fit: cover;
 }
 
 .description-1 {
@@ -25,12 +26,6 @@
     color: var(--gray);
     padding-bottom: 10px;
 }
-
-// .description-r {
-//     font-size: 2.25rem;
-//     font-family: var(--roboto);
-//     padding-bottom: 3rem;
-// }
 
 .img_wom2 {
     height: 29rem;

@@ -1,6 +1,7 @@
 .cointaner_customer-section {
     background-color: var(--light-gray);
     width: 100%;
+    height: 25rem;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
@@ -18,6 +19,7 @@
 .description-r {
     font-size: 2.25rem;
     font-family: var(--playfair-display);
-    padding-bottom: 3rem;
+    background-color: var(--light-gray);
+    padding-bottom: 1.5rem;
     font-weight: 200;
 }
